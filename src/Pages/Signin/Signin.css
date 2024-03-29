@@ -1,0 +1,181 @@
+/* Form */
+.sec-signin {
+  background-image: url("/src/assets/section1/hero section.jpg");
+  width: 100%;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-position: 50%;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000bf;
+  width: 30%;
+  padding: 30px 40px;
+  border-radius: 5px;
+}
+
+form,
+.signin-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.signin-heading {
+  display: flex;
+  align-items: flex-start;
+  width: 90%;
+}
+
+.signin-heading h1 {
+  font-size: 35px;
+}
+
+.signin-input {
+  gap: 10px;
+}
+
+.signin-input input[type="text"],
+.signin-input input[type="password"] {
+  padding: 18px;
+  border: none;
+  border-radius: 4px;
+  background-color: #303030;
+  font-size: 14px;
+  width: 90%;
+  outline: none;
+  color: white;
+}
+
+.signin-input input[type="text"]::placeholder,
+.signin-input input[type="password"]::placeholder {
+  transition: font-size 0.3s ease;
+}
+
+.signin-input input[type="text"]:hover::placeholder,
+.signin-input input[type="password"]:hover::placeholder {
+  font-size: 12px;
+}
+
+.signin-input input[type="text"]:focus,
+.signin-input input[type="password"]:focus {
+  color: white;
+  border-color: #ccc;
+  box-shadow: 0 0 0 1px #ccc, 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.signin-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signin-buttons button {
+  width: 100%;
+  padding: 10px 140px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e50914;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+}
+
+.signin-buttons button:hover {
+  background-color: #c11119;
+}
+
+.remember {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 145px;
+}
+
+.remember p {
+  font-size: 14px;
+  opacity: 0.8;
+  letter-spacing: 0.6px;
+}
+
+#help:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signin-new {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 0;
+  gap: 20px;
+}
+
+.new {
+  display: flex;
+  gap: 10px;
+}
+
+.new #new {
+  opacity: 0.7;
+}
+
+.new #now {
+  cursor: pointer;
+}
+
+.google-captcha {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+#learn {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#learn:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background-color: #000000bf;
+  margin: 50px 0 0;
+}
+
+.footer .query p,
+.footer-links .info p {
+  cursor: pointer;
+  transition: text-decoration 0.3s;
+}
+
+.footer .query p:hover,
+.footer-links .info p:hover {
+  text-decoration: underline;
+}
+
+#netflix {
+  opacity: 0;
+}

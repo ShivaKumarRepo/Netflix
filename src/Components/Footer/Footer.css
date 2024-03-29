@@ -1,0 +1,76 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 60px 300px 40px;
+}
+
+.query,
+.footer-links,
+.footer-links .info,
+.f-language,
+.f-language .f-globe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.query {
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer-links {
+  gap: 110px;
+}
+
+.footer-links .info {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.f-language .f-globe {
+  cursor: pointer;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+
+.f-language .f-globe img {
+  width: 25px;
+}
+
+.f-language .f-options select {
+  background-color: #0f0f0f;
+  color: #ccc;
+  padding: 5px 8px;
+  font-size: 13px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.f-language .f-options select:focus {
+  outline: none;
+}
+
+.query,
+.footer-links,
+.footer-links .info,
+.f-language,
+.f-language .f-options select,
+.f-brand {
+  opacity: 0.6;
+}
+.footer .query p,
+.footer-links .info p {
+  cursor: pointer;
+  transition: text-decoration 0.3s;
+}
+
+.footer .query p:hover,
+.footer-links .info p:hover {
+  text-decoration: underline;
+}

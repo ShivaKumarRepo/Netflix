@@ -1,0 +1,59 @@
+.section3 {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3 .images {
+  padding: 70px;
+  width: 50%;
+}
+
+/* Horizontal spacing */
+.slick-slide > div {
+  margin: 0 10px;
+}
+/* Ensures proper horizontal alignment of slides within the slider container. */
+.slick-list {
+  margin: 0px -10px;
+}
+
+.slick-slide img {
+  padding: 5px;
+  width: 100%;
+  height: 290px;
+  margin-top: 5px;
+  border: 2px solid #ffff;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.slick-slide img:hover {
+  transform: scale(1.03);
+}
+
+.section3 .videos {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display-video {
+  border: 2px solid #ffffff;
+  width: 50%;
+  height: 30vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#show-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  padding: 5px;
+}
